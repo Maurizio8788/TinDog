@@ -1,0 +1,203 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* Container */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.color-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/*  Heading  */
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+ color: #8f8f8f;
+ text-align: center;
+}
+
+.big-heading{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+/* Navbar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/* Button  */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*  Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*Image*/
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/* Features */
+
+#features{
+  position: relative;
+}
+
+.box{
+  padding: 4.5%;
+  text-align: center;
+}
+
+
+#features svg {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+
+}
+
+#features svg:hover{
+  color: #ff4c68;
+}
+
+.features-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+
+
+/* Press Section */
+#press{
+  padding: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/*  Pricing Section */
+
+#pricing{
+  padding: 100px;
+
+}
+
+.pricing-table{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Cta section */
+
+#cta{
+  padding: 7% 23%;
+}
+
+/*Footer Section */
+
+#footer{
+  padding: 7% 20%;
+}
+
+.social{
+  list-style-type: none;
+  padding: 0;
+}
+
+.social li{
+  display: inline-block;
+  padding: 15px;
+}
+
+
+
+/* Media */
+
+@media(max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
